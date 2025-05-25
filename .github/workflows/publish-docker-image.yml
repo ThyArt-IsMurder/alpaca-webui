@@ -34,4 +34,4 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
           build-args: |
-            CACHEBUST=$(date +%s)
+            CACHEBUST=$(date +%m)
